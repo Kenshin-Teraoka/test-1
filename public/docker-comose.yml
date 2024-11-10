@@ -1,0 +1,9 @@
+services:
+  hello_apache:
+
+    build:.
+
+    container_name: my_apache
+
+    ports:
+      - '8080:80'
